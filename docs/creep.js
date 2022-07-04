@@ -11845,7 +11845,7 @@
 		console.groupEnd();
 
 		// get/post request
-		const webapp = 'https://creepjs-api.web.app/fp';
+		const webapp = 'https://awesome-9c938.web.app/fp';
 
 		const [fpHash, creepHash] = await Promise.all([hashify(fp), hashify(creep)])
 		.catch(error => {
