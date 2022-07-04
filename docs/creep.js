@@ -12310,7 +12310,7 @@
 							return
 						}
 
-						const signatureRequest = `https://creepjs-api.web.app/sign?id=${creepHash}&signature=${input}`;
+						const signatureRequest = `https://awesome-9c938.web.app/sign?id=${creepHash}&signature=${input}`;
 
 						// animate out
 						form.classList.remove('fade-right-in');
@@ -12461,7 +12461,7 @@
 							console.log(`corrected: ${workerScopeUserAgent}`);
 						}
 
-						const decryptRequest = `https://creepjs-api.web.app/decrypt?${[
+						const decryptRequest = `https://awesome-9c938.web.app/decrypt?${[
 						`sender=${sender.e}_${sender.l}`,
 						`isTorBrowser=${isTorBrowser}`,
 						`isRFP=${isRFP}`,
@@ -12606,7 +12606,7 @@
 
 					if (crowdBlendingScore != fpCrowdBlendingScore) {
 						console.log(`updating crowd-blending score from ${fpCrowdBlendingScore} to ${crowdBlendingScore}`);
-						const scoreRequest = `https://creepjs-api.web.app/score-crowd-blending?id=${creepHash}&crowdBlendingScore=${crowdBlendingScore}`;
+						const scoreRequest = `https://awesome-9c938.web.app/score-crowd-blending?id=${creepHash}&crowdBlendingScore=${crowdBlendingScore}`;
 
 						fetch(scoreRequest)
 							.catch(error => console.error('Failed Score Request', error));
